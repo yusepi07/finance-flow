@@ -1,0 +1,19 @@
+{
+  "name": "finance-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css",
+    "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --watch",
+    "icons": "node generate-icons.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.2",
+    "tailwindcss": "^4.3.2"
+  }
+}

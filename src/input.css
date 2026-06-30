@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@source "../js/";
+@source "../*.html";
+@source "../*.js";
+
+@theme {
+  --color-primary: #1a56db;
+  --color-primary-dark: #1e40af;
+  --color-accent: #00c853;
+  --color-surface: #0f1923;
+  --color-surface-light: #f5f7fa;
+  --color-card: #1a2736;
+  --color-card-light: #ffffff;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

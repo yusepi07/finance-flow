@@ -1,4 +1,5 @@
 const Calculator = {
+
   activeCurrency: 'usd',
   decimals: 3,
   _rate: 0,

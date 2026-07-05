@@ -1,4 +1,5 @@
 const Api = {
+
   MAIN_URL: 'https://api.dolaraldiavzla.com/api/v1/tipo-cambio',
   HIST_USD: 'https://ve.dolarapi.com/v1/historicos/dolares/oficial/',
   HIST_EUR: 'https://ve.dolarapi.com/v1/historicos/euros/oficial/',

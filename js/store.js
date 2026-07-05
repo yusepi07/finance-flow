@@ -1,4 +1,5 @@
 const Store = {
+
   KEY: 'financeflow',
 
   _namespace(key) {
